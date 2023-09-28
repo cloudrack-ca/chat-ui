@@ -20,7 +20,13 @@ A chat interface using open source models, e.g. OpenAssistant or Llama. It is a 
 
 # What Powers This AI Currently.
 As this is a side project and i own a dell poweredge r210 server chasis rack mountable 1u server i wanted to test the minimal aspects of the ability of this chat ai.
-- Powered on a dell r210 with cloudflared uses npm run dev | enable --host on dev package.json use pm2 start npm -- run dev too keep it alive then use cloudflared or zerotrust on CF to push ports if no portforwarding.
+- Powered on a dell r210 with cloudflared uses npm run dev | enable --host on dev package.json use pm2 start npm -- run dev too keep it alive then use cloudflared or zerotrust on CF to push ports if no port forwarding.
+- Run by using docker for free utilizing our api key please note our master key is reset on our end and this is a cached version with no write access to [HF](https://huggingface.co)
+
+  ```shell
+  docker run -p 5173:5173 shoppmonster/cloudrack-ai:latest
+  ```
+ - To develop and run your own ChatUI please check out [`huggingface/chat-ui`](https://github.com/huggingface/chat-ui)
 ---
 # Credits & Resources
 - [Cloudrack.ca](https://cloudrack.ca/)
