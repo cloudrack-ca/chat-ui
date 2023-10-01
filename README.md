@@ -10,7 +10,7 @@ base_path: /chat
 app_port: :3000  prod
 app_dev_port: :5173 dev
 ---
-
+### project halted for time being.
 # Cloudrack AI | Based On HF Chat UI
 ### [`View The LIVE DEMO @ ai.cloudrack.ca | Web Search Has Been Disabled For Demo`](https://ai.cloudrack.ca)
 ![Chat UI repository thumbnail](https://cdn.discordapp.com/attachments/1154471481145827470/1156766456709652520/chatui-websearch.png?ex=65162a36&is=6514d8b6&hm=011eb493d715884234c98391423b9c97a9c9704826a0ab69c697fdb102918f12&)
